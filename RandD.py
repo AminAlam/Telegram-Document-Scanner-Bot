@@ -25,7 +25,3 @@ def Scanner(img_path,filename):
     final = cv2.convertScaleAbs(final, alpha=alpha, beta=beta)
     gray = cv2.cvtColor(final, cv2.COLOR_BGR2GRAY)
     cv2.imwrite(filename,final,[cv2.IMWRITE_JPEG_QUALITY, 40])
-
-Scanner('3.jpg','test222.jpg')
-
-
