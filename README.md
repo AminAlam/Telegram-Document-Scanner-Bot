@@ -7,7 +7,7 @@ This is a telegrom bot written in python using telegram-python library. This bot
 
 How To Use This
 -------------
-You need to first make a bot and take an API for it from [@BotFather](https://t.me/BotFather) and then change `API` in `main.py` and run it!
+You need to first make a bot and take an API for it from [@BotFather](https://t.me/BotFather) and then change `API` in `EasyScanner.py` and run it!
 Note that this bot doesn't use any databse for saving clients informations or logs, but there is a meta class which stores all the informations.
 
 How to customize it?
