@@ -12,7 +12,8 @@ Note that this bot doesn't use any databse for saving clients informations or lo
 
 How to customize it?
 -------------
-First change `MainChannel` and `LogChannel` to your channels. `MainChannel` is the id of the channel wich all users must be its member in order to use the bot and `LogChannel` is the channel which all the logs are sended to it ###(note that your bot must be an admin in both of the channels)
+First change `MainChannel` and `LogChannel` to your channels. `MainChannel` is the id of the channel wich all users must be its member in order to use the bot and `LogChannel` is the channel which all the logs are sended to it 
+##### note that your bot must be an admin in both of the channels
 
 - Change `text_puter.py` for changing font, color, and ... of the text.
 - Change `RandD.py` for changing image scanning algorithm.
