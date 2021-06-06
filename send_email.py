@@ -17,13 +17,13 @@ import os
 import random
 
 def email_send(filename,receiver_email,JPG = 0,counts = None,PDF_name = None,First_page = 0):
-    
-    mail_base = [ "MedALScanner@gmail.com",  "medalscanner1@gmail.com" ,  "medalscanner2@gmail.com"  ,  "medalscanner3@gmail.com"  ,   "medalscanner4@gmail.com" ,    "medalscanner5@gmail.com" ,   "medalscanner6@gmail.com" ,    "medalscanner7@gmail.com" ,   "medalscanner8@gmail.com"   ,   "medalscanner9@gmail.com"]
+    #### emai and password
+    mail_base = [""]
+    password = ""
+    ####
     subject = "Your File By MedAL Scanner"
     body = " "
     sender_email = random.choice(mail_base)
-    print(sender_email)
-    password = "ICANSEEYOU1232821Ai82b1al1!adu3ja#qenuxpoi9923ndiwaksdhfie"
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = receiver_email
