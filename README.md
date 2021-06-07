@@ -1,4 +1,4 @@
-MedAl Scanner
+MedAl Document Scanner
 ==============================
 
 What Is This? :monocle_face:
