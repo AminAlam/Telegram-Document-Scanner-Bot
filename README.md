@@ -1,4 +1,5 @@
-MedAl Document Scanner
+Telegram Document Scanner Bot
+
 ==============================
 
 What Is This?
