@@ -1,7 +1,7 @@
 MedAl Document Scanner
 ==============================
 
-What Is This? :monocle_face:
+What Is This?
 -------------
 This is a telegrom bot written in python using telegram-python library. This bot can scan images and make PDF files from those scanned images.
 
